@@ -75,8 +75,7 @@ export default function Footer() {
             </a> */}
 
             <small className="text-zinc-500">
-              Copyright &copy; Victor Eke {new Date().getFullYear()} All rights
-              Reserved
+              Adapted by Surya Viyyapu | Credits to <a href="https://victoreke.com/">Victor Eke</a>
             </small>
           </div>
         </div>

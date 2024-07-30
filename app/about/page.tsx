@@ -6,19 +6,20 @@ import { PortableText } from "@portabletext/react";
 import { BiEnvelope, BiLinkExternal, BiSolidDownload } from "react-icons/bi";
 import { CustomPortableText } from "../components/shared/CustomPortableText";
 import Heroes from "../components/pages/Heroes";
+// TODO
 import Usage from "../components/pages/Usage";
 import { Slide } from "../animation/Slide";
 import { sanityFetch } from "@/lib/sanity.client";
 import RefLink from "../components/shared/RefLink";
 
 export const metadata: Metadata = {
-  title: "About | Victor Eke",
-  metadataBase: new URL("https://victoreke.com/about"),
+  title: "About | Surya Viyyapu",
+  metadataBase: new URL("https://suryaviyyapu.com/about"),
   description:
     "Learn more about my skills, experience and technical background",
   openGraph: {
-    title: "About | Victor Eke",
-    url: "https://victoreke.com/about",
+    title: "About | Surya Viyyapu",
+    url: "https://suryaviyyapu.com/about",
     description:
       "Learn more about my skills, experience and technical background",
     images:
@@ -105,6 +106,7 @@ export default async function About() {
               <Usage />
             </Slide>
             <Heroes />
+            {/* TODO Remove Heroes */}
           </div>
         ))}
     </main>
