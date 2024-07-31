@@ -5,7 +5,7 @@ const profile = {
   name: "profile",
   title: "Profile",
   type: "document",
-  icon: BiUser,
+  // icon: BiUser,
   fields: [
     defineField({
       name: "fullName",
