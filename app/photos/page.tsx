@@ -22,19 +22,19 @@ const images = [
   },
   {
     id: "5",
-    src: "https://sfolio.s3.amazonaws.com/IMG_0470.JPG",
+    src: "https://sfolio.s3.amazonaws.com/IMG_0470.JPEG",
   },
   {
     id: "6",
-    src: "https://sfolio.s3.amazonaws.com/IMG_1659.JPG",
+    src: "https://sfolio.s3.amazonaws.com/IMG_1659.JPEG",
   },
   {
     id: "7",
-    src: "https://sfolio.s3.amazonaws.com/IMG_1424.JPG",
+    src: "https://sfolio.s3.amazonaws.com/IMG_1424.JPEG",
   },
   {
     id: "8",
-    src: "https://sfolio.s3.amazonaws.com/IMG_1432.JPG",
+    src: "https://sfolio.s3.amazonaws.com/IMG_1432.JPEG",
   },
   {
     id: "9",
