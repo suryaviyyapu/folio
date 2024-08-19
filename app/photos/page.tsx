@@ -14,11 +14,35 @@ const images = [
   },
   {
     id: "3",
-    src: "https://sfolio.s3.amazonaws.com/GPTempDownloadNMcd.jpg",
+    src: "https://sfolio.s3.amazonaws.com/IMG_5593.JPG",
   },
   {
     id: "4",
-    src: "https://sfolio.s3.amazonaws.com/GPTempDownloadNMcd.jpg",
+    src: "https://sfolio.s3.amazonaws.com/IMG_0330.JPG",
+  },
+  {
+    id: "5",
+    src: "https://sfolio.s3.amazonaws.com/IMG_0470.JPG",
+  },
+  {
+    id: "6",
+    src: "https://sfolio.s3.amazonaws.com/IMG_1659.JPG",
+  },
+  {
+    id: "7",
+    src: "https://sfolio.s3.amazonaws.com/IMG_1424.JPG",
+  },
+  {
+    id: "8",
+    src: "https://sfolio.s3.amazonaws.com/IMG_1432.JPG",
+  },
+  {
+    id: "9",
+    src: "https://sfolio.s3.amazonaws.com/IMG_1184.JPG",
+  },
+  {
+    id: "10",
+    src: "https://sfolio.s3.amazonaws.com/IMG_1005.JPG",
   },
 ];
 
