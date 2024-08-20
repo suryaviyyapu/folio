@@ -10,7 +10,6 @@ import Heroes from "../components/pages/Heroes";
 import Usage from "../components/pages/Usage";
 import { Slide } from "../animation/Slide";
 import { sanityFetch } from "@/lib/sanity.client";
-import RefLink from "../components/shared/RefLink";
 
 export const metadata: Metadata = {
   title: "About | Surya Viyyapu",
@@ -42,9 +41,7 @@ export default async function About() {
               <div className="order-2 lg:order-none">
                 <Slide>
                   <h1 className="font-incognito font-semibold tracking-tight sm:text-5xl text-3xl lg:leading-tight basis-1/2 mb-8">
-                    I&apos;m {data.fullName}. I live in {data.location}, where I
-                    build the future.
-                  </h1>
+                    I&apos;m {data.fullName}. I live in {data.location}.</h1>
 
                   <div className="dark:text-zinc-400 text-zinc-600 leading-relaxed">
                     <PortableText
@@ -72,14 +69,14 @@ export default async function About() {
 
                     <div className="flex flex-col text-center gap-y-4">
                       <div className="flex items-center gap-x-3">
-                        <RefLink
-                          href="https://www.craft.me/s/WQpQF3jrPIodXp"
+                        <a
+                          href={`${data.resumeURL}?dl=${data.fullName}-resume.pdf`}
                           className="flex items-center justify-center text-center gap-x-2 basis-[90%] dark:bg-primary-bg bg-zinc-100 border border-transparent dark:hover:border-zinc-700 hover:border-zinc-200 rounded-md py-2 text-lg font-incognito font-semibold"
                         >
                           View Résumé <BiLinkExternal className="text-base" />
-                        </RefLink>
+                        </a>
                         <a
-                          href={`${data.resumeURL}?dl=${data.fullName}-resume`}
+                          href={`${data.resumeURL}?dl=${data.fullName}-resume.pdf`}
                           className="flex items-center justify-center text-center dark:text-primary-color text-secondary-color hover:underline basis-[10%] dark:bg-primary-bg bg-zinc-100 border border-transparent dark:hover:border-zinc-700 hover:border-zinc-200 rounded-md py-3 text-lg"
                           title="Download Resume"
                         >
