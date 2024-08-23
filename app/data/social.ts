@@ -1,19 +1,13 @@
 import {
-  BiLinkExternal,
-  BiLogoCodepen,
-  BiLogoDribbble,
+
   BiLogoGithub,
   BiLogoGitlab,
   BiLogoInstagram,
   BiLogoLinkedinSquare,
-  BiLogoStackOverflow,
-  BiLogoSteam,
-  BiLogoUnsplash,
-  BiLogoYoutube,
+  BiLogoTelegram,
+
 } from "react-icons/bi";
-import { FaFreeCodeCamp, FaProductHunt } from "react-icons/fa";
-import { SiCodewars } from "react-icons/si";
-import { FaHashnode, FaHashtag, FaSquareXTwitter } from "react-icons/fa6";
+import { FaSquareXTwitter } from "react-icons/fa6";
 
 export const socialLinks = [
   {
@@ -39,100 +33,23 @@ export const socialLinks = [
   },
   {
     id: 4,
-    name: "Codepen",
-    url: "https://codepen.io/suryaviyyapu",
-    icon: BiLogoCodepen,
-    status: "social",
-  },
-  {
-    id: 5,
-    name: "Dribbble",
-    url: "https://dribbble.com/suryaviyyapu",
-    icon: BiLogoDribbble,
-    status: "social",
-  },
-  {
-    id: 6,
     name: "Instagram",
     url: "https://instagram.com/suryaviyyapu",
     icon: BiLogoInstagram,
     status: "social",
   },
   {
-    id: 7,
-    name: "Steam",
-    url: "https://steamcommunity.com/id/suryaviyyapu/",
-    icon: BiLogoSteam,
-    status: "social",
-  },
-  {
-    id: 8,
-    name: "Unsplash",
-    url: "https://unsplash.com/@suryaviyyapu",
-    icon: BiLogoUnsplash,
-    status: "social",
-  },
-  {
-    id: 9,
-    name: "FreeCodeCamp",
-    url: "https://freecodecamp.org/news/author/suryaviyyapu/",
-    icon: FaFreeCodeCamp,
-    status: "publication",
-  },
-  {
-    id: 10,
-    name: "Hashnode",
-    url: "https://hashnode.dev",
-    icon: FaHashnode,
-    status: "publication",
-  },
-  {
-    id: 11,
-    name: "Sanity",
-    url: "https://www.sanity.io/exchange/community/suryaviyyapu",
-    icon: FaHashtag,
-    status: "publication",
-  },
-  {
-    id: 12,
-    name: "Youtube",
-    url: "https://youtube.com/@suryaviyyapu",
-    icon: BiLogoYoutube,
-    status: "social",
-  },
-  {
-    id: 13,
-    name: "Daily.dev",
-    url: "https://app.daily.dev/suryaviyyapu",
-    icon: BiLinkExternal,
-    status: "social",
-  },
-  {
-    id: 14,
-    name: "Producthunt",
-    url: "https://www.producthunt.com/@suryaviyyapua",
-    icon: FaProductHunt,
-    status: "social",
-  },
-  {
-    id: 15,
-    name: "Stackoverflow",
-    url: "https://stackoverflow.com/users/suryaviyyapu",
-    icon: BiLogoStackOverflow,
-    status: "social",
-  },
-  {
-    id: 16,
-    name: "Codewars",
-    url: "https://www.codewars.com/users/suryaviyyapu",
-    icon: SiCodewars,
-    status: "social",
-  },
-  {
-    id: 17,
+    id: 5,
     name: "Gitlab",
     url: "https://gitlab.com/suryaviyyapu",
     icon: BiLogoGitlab,
     status: "social",
   },
+  {
+    id: 6,
+    name: "Telegram",
+    url: "https://t.me/z3rod0t",
+    icon: BiLogoTelegram,
+    status: "social",
+  }
 ];
