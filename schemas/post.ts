@@ -1,20 +1,18 @@
 import { defineField, defineType } from "sanity";
-import { BiBookOpen } from "react-icons/bi";
 import Author from "./author";
 
 export default defineType({
   name: "Post",
   title: "Blog Posts",
   type: "document",
-  // icon: BiBookOpen,
   fields: [
     defineField({
       name: "title",
       title: "Title",
       type: "string",
       description:
-        "Give your blog post a nice title. Recommend 50 - 70 characters",
-      validation: (Rule) => Rule.required().min(30),
+        "Give your blog post a nice title.",
+      validation: (Rule) => Rule.required().min(12),
     }),
     defineField({
       name: "slug",
@@ -28,7 +26,7 @@ export default defineType({
       name: "description",
       title: "Description",
       type: "text",
-      description: "Summarize your article in 150 - 160 characters.",
+      description: "Summarize your article.",
       rows: 4,
       validation: (Rule) => [
         Rule.required()
@@ -98,7 +96,7 @@ export default defineType({
       name: "isPublished",
       title: "PUBLISH POST",
       type: "boolean",
-      description: "Tick this if you will like to publish this post",
+      description: "Tick this if you like to publish this post",
     }),
   ],
   preview: {
