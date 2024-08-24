@@ -65,16 +65,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       publishedTime: post._createdAt,
       modifiedTime: post._updatedAt || "",
     },
-    twitter: {
-      title: post.title,
-      description: post.description,
-      images:
-        urlFor(post.coverImage?.image).width(680).height(340).url() ||
-        fallbackImage,
-      creator: `@${post.author.twitterUrl.split("twitter.com/")[1]}`,
-      site: `@${post.author.twitterUrl.split("twitter.com/")[1]}`,
-      card: "summary_large_image",
-    },
   };
 }
 
@@ -181,7 +171,7 @@ export default async function Post({ params }: Props) {
                     rel="noreferrer noopener"
                     target="_blank"
                   >
-                    {`@${post.author.twitterUrl.split("twitter.com/")[1]}`}
+                    {`${post.author.twitterUrl.split("medium.com/")[1]}`}
                   </a>
                 </div>
               </address>
