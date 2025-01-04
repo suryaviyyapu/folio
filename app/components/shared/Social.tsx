@@ -12,10 +12,10 @@ export default function Social({ type }: { type: string }) {
               href={value.url}
               className="flex items-center border-b dark:border-b-zinc-800 border-zinc-200 group"
             >
-              <value.icon
-                className="flex-shrink-0 h-5 w-5 text-zinc-500 group-hover:dark:text-white group-hover:text-zinc-800 duration-300"
-                aria-hidden="true"
-              />{" "}
+            <value.icon
+              className="flex-shrink-0 h-5 w-5 text-orange-500 group-hover:dark:text-orange-300 group-hover:text-orange-700 duration-300"
+              aria-hidden="true"
+            />{" "}
               &nbsp;
               {value.name}
             </RefLink>

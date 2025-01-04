@@ -65,7 +65,7 @@ export default function Footer() {
 
           <div className="flex flex-col lg:items-end items-center lg:text-start text-center">
             <small className="text-zinc-500">
-              Adapted by Surya Viyyapu | Credits to <a href="https://github.com/Evavic44/victoreke.com/">Victor Eke</a>
+              Adapted by <span className="text-orange-500">Surya Viyyapu</span> | Credits to <a href="https://github.com/Evavic44/victoreke.com/">Victor Eke</a>
             </small>
           </div>
         </div>

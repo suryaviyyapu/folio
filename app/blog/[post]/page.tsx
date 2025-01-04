@@ -114,10 +114,10 @@ export default async function Post({ params }: Props) {
               </div>
               <Link
                 href="#comments"
-                className="flex items-center gap-x-2 dark:text-primary-color text-tertiary-color"
+                className="flex items-center gap-x-2 dark:text-orange-400 text-orange-400"
               >
                 <HiChat />
-                <div className="#comments">Comments</div>
+                <div className="#comments text-orange-400">Comments</div>
               </Link>
               <div className="flex items-center gap-x-2">
                 <BiSolidTime />

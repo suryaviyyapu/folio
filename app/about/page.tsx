@@ -39,7 +39,7 @@ export default async function About() {
               <div className="order-2 lg:order-none">
                 <Slide>
                   <h1 className="font-incognito font-semibold tracking-tight sm:text-5xl text-3xl lg:leading-tight basis-1/2 mb-8">
-                    I&apos;m {data.fullName}. I live in {data.location}.</h1>
+                    I&apos;m <span className="text-orange-400">{data.fullName}.</span> I live in {data.location}.</h1>
 
                   <div className="dark:text-zinc-400 text-zinc-600 leading-relaxed">
                     <PortableText
@@ -69,13 +69,13 @@ export default async function About() {
                       <div className="flex items-center gap-x-3">
                         <a
                           href={`${data.resumeURL}?dl=${data.fullName}-resume.pdf`}
-                          className="flex items-center justify-center text-center gap-x-2 basis-[90%] dark:bg-primary-bg bg-zinc-100 border border-transparent dark:hover:border-zinc-700 hover:border-zinc-200 rounded-md py-2 text-lg font-incognito font-semibold"
+                          className="flex items-center justify-center text-center gap-x-2 basis-[90%] dark:bg-primary-bg bg-zinc-100 border border-transparent dark:hover:text-orange-400 hover:text-orange-700 rounded-md py-2 text-lg font-incognito font-semibold"
                         >
                           View Résumé <BiLinkExternal className="text-base" />
                         </a>
                         <a
                           href={`${data.resumeURL}?dl=${data.fullName}-resume.pdf`}
-                          className="flex items-center justify-center text-center dark:text-primary-color text-secondary-color hover:underline basis-[10%] dark:bg-primary-bg bg-zinc-100 border border-transparent dark:hover:border-zinc-700 hover:border-zinc-200 rounded-md py-3 text-lg"
+                          className="flex items-center justify-center text-center dark:text-orange-400 text-secondary-color hover:underline basis-[10%] dark:bg-primary-bg bg-zinc-100 border border-transparent dark:hover:border-zinc-700 hover:border-zinc-200 rounded-md py-3 text-lg"
                           title="Download Resume"
                         >
                           <BiSolidDownload
@@ -87,7 +87,7 @@ export default async function About() {
 
                       <a
                         href={`mailto:${data.email}`}
-                        className="flex items-center gap-x-2 hover:text-primary-color"
+                        className="flex items-center gap-x-2 hover:text-orange-400"
                       >
                         <BiEnvelope className="text-lg" />
                         {data.email}
