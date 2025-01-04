@@ -98,5 +98,3 @@ export const singlePostQuery = groq`*[_type == "Post" && slug.current == $slug][
   },
   body,
 }`;
-
-export const heroesQuery = groq`*[_type == "heroe"] | order(_createdAt asc) { _id, _createdAt, name, url, met }`;
