@@ -37,3 +37,8 @@ next-env.d.ts
 .env
 backup.json
 backup.ndjson
+
+.codex-logs
+.claude
+.vscode
+.idea

@@ -1,12 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@config "../../tailwind.config.js";
+@import "./prism.css";
 
 html {
   scroll-behavior: smooth;
 }
-
-@import "prism.css";
 
 body {
   background-image: url("../../public/noise.png");
