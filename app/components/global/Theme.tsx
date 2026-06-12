@@ -12,7 +12,11 @@ export default function Theme() {
   function toggleTheme() {
     return currentTheme === "light" ? setTheme("dark") : setTheme("light");
   }
-  useEffect(() => setHasMounted(true), []);
+  useEffect(() => {
+    const frame = requestAnimationFrame(() => setHasMounted(true));
+
+    return () => cancelAnimationFrame(frame);
+  }, []);
 
   if (!hasMounted)
     return (
